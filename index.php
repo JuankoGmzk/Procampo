@@ -50,7 +50,7 @@ ini_set('error_reporting',0);
                         <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#news">Noticias</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>
-                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="Login/login.php">Iniciar Sesión</a></li>
 
                     </ul>
                 </div>
