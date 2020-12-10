@@ -29,6 +29,9 @@ ini_set('error_reporting',0);
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/slider.css">
+
 
     <title>PROCAMPO</title>
 </head>
@@ -48,22 +51,22 @@ ini_set('error_reporting',0);
                         <p class="text-left follow">Nuestras Redes:</p>
                         <ul class="navbar-nav float-left social-links">
 
-                            <li class="nav-item">
+                        <?php if( !isset($_SESSION['usuario'])) { ?>  <li class="nav-item">
                                 <a href="Login/login.php" class="tooltip33" ><i class="fas fa-user-tag"> </i><span class="tooltiptext">Iniciar Sesión</span>  </a>
-                            </li>
+                                <?php } ?></li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
                             </li>
-                            <?php if( $_SESSION['rango'] == 2) { ?> <li class="nav-item"><a class="tooltip33" href="dashboard.php"><i class="fas fa-map"></i> <span class="tooltiptext">Centro de datos</span> </a>
-                                <?php } ?></li>
+                             <li class="nav-item"><a class="tooltip33" href="dashboard.php"><i class="fas fa-map"></i> <span class="tooltiptext">Centro de datos</span> </a>
+                                </li>
 
                             <?php if( $_SESSION['rango'] == 2) { ?> <li class="nav-item"><a class="tooltip33" href="proyectos-theme"><i class="fas fa-file-prescription"></i> <span class="tooltiptext">Proyectos</span> </a>
                                 <?php } ?></li>
 
-                            <li class="nav-item"><a class="tooltip33" href="Login/logout.php"><i class="fas fa-sign-out-alt"></i> <span class="tooltiptext">Cerrar Sesión</span></a>
-                            </li>
+                                <?php if( isset($_SESSION['usuario'])) { ?>   <li class="nav-item"><a class="tooltip33" href="Login/logout.php"><i class="fas fa-sign-out-alt"></i> <span class="tooltiptext">Cerrar Sesión</span></a>
+                                    <?php } ?></li>
 
                         </ul>
                     </div>
@@ -89,9 +92,9 @@ ini_set('error_reporting',0);
                             <a class="nav-link" href="#contact">Contactanos</a>
                         </li>
                      
-                        <?php if( $_SESSION['rango'] == 2) { ?><li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="#news">Noticias</a>
-                        <?php } ?></li>
+                      </li>
 
 
 
@@ -103,7 +106,7 @@ ini_set('error_reporting',0);
         <div class="carousel-inner">
             <div class="carousel-item active">
 
-                <img class="d-block w-100 home-bg" alt="home-bg" src="images/hola.jpg">
+                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/POSTS_181221-09.jpg">
 
                 <div class="carousel-caption d-md-block">
                     <p class="frst-hrd">campo3</p>
@@ -115,7 +118,7 @@ ini_set('error_reporting',0);
 
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 home-bg" alt="home-bg" src="images/hola3.jpg">
+                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/agricultura2.jpg">
 
                 <div class="carousel-caption d-md-block">
                     <p class="frst-hrd">campo1</p>
@@ -125,7 +128,7 @@ ini_set('error_reporting',0);
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 home-bg" alt="home-bg" src="images/hola4.jpg">
+                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/landscapes-2432900_1920.jpg">
 
                 <div class="carousel-caption d-md-block">
                     <p class="frst-hrd">campo2</p>
@@ -158,12 +161,12 @@ ini_set('error_reporting',0);
                     <svg class="back-bg" viewBox="0 0 535 618">
                         <defs>
                             <linearGradient id="PSgrad_0" x1="0%" x2="100%" y1="0%" y2="0%">
-                                <stop offset="0%" stop-color="rgb(41,209,117)" stop-opacity="1" />
-                                <stop offset="100%" stop-color="rgb(87,209,41)" stop-opacity="1" />
+                                <stop offset="0%" stop-color="rgb(151,193,96)" stop-opacity="1" />
+                                <stop offset="100%" stop-color="rgb(104,130,70)" stop-opacity="1" />
                             </linearGradient>
 
                         </defs>
-                        <path fill-rule="evenodd" fill="rgb(18, 112, 228)"
+                        <path fill-rule="evenodd" fill="rgb(105, 72, 79)"
                             d="M6.000,-0.000 L499.000,-0.000 C502.314,-0.000 505.000,2.686 505.000,6.000 L505.000,612.000 C505.000,615.314 502.314,618.000 499.000,618.000 L6.000,618.000 C2.686,618.000 -0.000,615.314 -0.000,612.000 L-0.000,6.000 C-0.000,2.686 2.686,-0.000 6.000,-0.000 Z" />
                         <path fill="url(#PSgrad_0)"
                             d="M6.000,-0.000 L499.000,-0.000 C502.314,-0.000 505.000,2.686 505.000,6.000 L505.000,612.000 C505.000,615.314 502.314,618.000 499.000,618.000 L6.000,618.000 C2.686,618.000 -0.000,615.314 -0.000,612.000 L-0.000,6.000 C-0.000,2.686 2.686,-0.000 6.000,-0.000 Z" />
@@ -171,61 +174,137 @@ ini_set('error_reporting',0);
 
                     <div class="owl-carousel owl-carousel1 owl-theme">
                         <div>
-                            <img src="images/personas_retos/img26.jpg" alt="" class="img-fluid" />
+                            <img src="images/procampo_imagenes/reiseuhu-2GrRlrLReQc-unsplash.jpg" alt="" class="img-fluid" />
+                            
                         </div>
                         <div>
-                            <img src="images/personas_retos/img23.jpg" alt="" class="img-fluid" />
+                            <img src="images/procampo_imagenes/Campesinofinagro-1.jpg" alt="" class="img-fluid" />
                         </div>
                         <div>
-                            <img src="images/personas_retos/img1.jpg" alt="" class="img-fluid" />
+                            <img src="images/procampo_imagenes/campesino-cosechando.jpg" alt="" class="img-fluid" />
+
+                           
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="col-lg-8">
                     <div class="about-us-content">
-                        <h2>Sobre Nosotros</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
-                            ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                            consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                            dolore magnam aliquam quaerat voluptatem.</p>
-                        <a href="#" class="read-more">Read More</a>
+
+                        <div class="containers">
+  
+                        <ul class="slider">
+                            <li id="slide1">
+                            <h1 style="color:#574839;"> Misión</h1>
+                            <p style="color:black;">Buscamos ser un puente de comunicación entre empresas y
+                                la población rural; proponiendo objetivos de desarrollo
+                                sostenible mediante un HUB tecnológico y social para
+                                satisfacer las necesidades de este sector mientras reforzamos
+                                la responsabilidad social empresarial en el territorio
+                                colombiano.</p>
+                            </li>
+                            <li id="slide2">
+                            <h1 style="color:#574839;">Visión</h1>
+                            <p style="color:black;">Para el año 2021 buscamos convertir el campo colombiano en un
+                                espacio lleno de oportunidades para la población, donde las cifras
+                                del comercio y la participación de la población rural en el desarrollo
+                                nacional se vean directamente impactadas de forma positiva;
+                                queremos llevar las herramientas necesarias para la población rural
+                                (tecnología, educación, oportunidades laborales, etc) manteniendo
+                                la responsabilidad social y ambiental en todo momento.</p>
+                            </li>
+                            <li id="slide3">
+                            <h1 style="color:#574839;">Filosofía y valores</h1>
+                            <p style="color:black;">Somos un HUB tecnológico y social que busca conectar a
+                                los empresarios que desean implementar políticas de
+                                responsabilidad social con la población rural
+                                colombiana, para generar oportunidades de desarrollo
+                                en educación, tecnología, economía, medio ambiente y el
+                                sector laboral; enfocándonos y guiándonos por nuestros
+                                valores y atributos.<br>
+                            
+                                - Innovación: Creación de una alianza entre las
+                                empresas enfocadas a la responsabilidad social y la
+                                población rural, generando proyectos innovadores en
+                                red de alto impacto que generen desarrollo nacional.<br></p><br>
+                            
+                            </li>
+                            <li id="slide4">
+                            <h1 style="color:#574839;">Filosofía y valores</h1>
+                            <p style="color:black;">
+                            - Eficiencia: Buscamos generar un alto impacto en la
+                                población rural sacando el mejor provecho de cada
+                                recurso.<br>
+                                - Liderazgo: Trabajamos en equipo desde empresarios
+                                hasta la población rural con el objetivo de llevar las
+                                mejores oportunidades en el desarrollo individual y
+                                grupal de cada uno.<br>
+                                - Solidaridad: Tenemos siempre en cuenta las
+                                necesidades básicas y complementarias de la población
+                                rural y nuestros aliados.<br>
+                            </p>
+                            
+                            </li>
+                            <li id="slide5">
+                            <h1 style="color:#574839;">Filosofía y valores</h1>
+                            <p style="color:black;">
+                            - Empatía: Nos preocupamos por la situación de la
+                                población rural nacional, es por esto que buscamos
+                                entender las necesidades existentes para brindar las
+                                mejores oportunidades y beneficios para cada integrante
+                                de la cadena de valor.<br>
+                                - Dinamismo: La capacidad que tenemos para
+                                transformarnos y evolucionar a medida que las
+                                necesidades de nuestros la población rural lo hacen.<br>
+                               
+                            </p>
+                            
+                            </li>
+                        </ul>
+                        
+                        <ul class="menu">
+                            <li>
+                            <a href="#slide1"></a>
+                            </li>
+                            <li>
+                            <a href="#slide2"></a>
+                            </li>
+                            <li>
+                            <a href="#slide3"></a>
+                            </li>
+                            <li>
+                            <a href="#slide4"></a>
+                            </li>
+                            <li>
+                            <a href="#slide5"></a>
+                            </li>
+                            
+                        </ul>
+                        
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
+    
 
 
     <div class="container-fluid fh5co-portfolio" id="portfolio">
         <div class="container">
-            <h2>NUESTRO PORTAFOLIO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad </p>
+       
             <h3>Proyectos:</h3>
             <div class="portfolio-tab portfolioFilter">
                 <ul>
-                    <li><a href="#" data-filter="*" class="active">Todo</a>
+                   
+                    <li><a href="#" data-filter=".realizados">Realizados</a>
                     </li>
-                    <li><a href="#" data-filter=".landscape">Samsung</a>
+                    <li><a href="#" data-filter=".proceso">En Proceso</a>
                     </li>
-                    <li><a href="#" data-filter=".green">Green</a>
+                    <li><a href="#" data-filter=".futuros">Futuros</a>
                     </li>
-                    <li><a href="#" data-filter=".building">Building</a>
-                    </li>
-                    <li><a href="#" data-filter=".wedding">Weeding</a>
-                    </li>
-                    <li><a href="#" data-filter=".nature">Nature</a>
-                    </li>
+                  
                    
                 </ul>
             </div>
@@ -234,16 +313,10 @@ ini_set('error_reporting',0);
 
                 <div class="portfolioContainer">
 
-                    <div class="gallary building nature green">
-                        <img src="images/personas_retos/img26.jpg" alt="">
+                    <div class="gallary realizados">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg" class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+                           
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -254,16 +327,10 @@ ini_set('error_reporting',0);
                         </div>
 
                     </div>
-                    <div class="gallary center-img wedding">
-                        <img src="images/personas_retos/img11.jpg" class="half-height" alt="">
+                    <div class="gallary realizados">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg" class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+                        
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -274,17 +341,11 @@ ini_set('error_reporting',0);
                         </div>
                     </div>
 
-                    <div class="gallary building">
+                    <div class="gallary proceso">
 
-                        <img src="images/personas_retos/img26.jpg" alt="">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+                           
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -294,16 +355,10 @@ ini_set('error_reporting',0);
                             </div>
                         </div>
                     </div>
-                    <div class="gallary center-img landscape nature">
-                        <img src="images/personas_retos/img13.jpg" class="half-height" alt="">
+                    <div class="gallary  proceso">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg" class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+                           
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -313,16 +368,10 @@ ini_set('error_reporting',0);
                             </div>
                         </div>
                     </div>
-                    <div class="gallary">
-                        <img src="images/personas_retos/img26.jpg" alt="">
+                    <div class="gallary futuros">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+               
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -333,16 +382,10 @@ ini_set('error_reporting',0);
                         </div>
                     </div>
 
-                    <div class="gallary center-img landscape">
-                        <img src="images/personas_retos/img26.jpg" alt="">
+                    <div class="gallary futuros">
+                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
+       
 
                             <div class="top-buttons bottom-buttons clearfix">
                                 <a href="#"><span class="txt">Contact Now</span></a>
@@ -354,46 +397,28 @@ ini_set('error_reporting',0);
                     </div>
 
 
-                    <div class="gallary building nature">
-                        <img src="images/personas_retos/img26.jpg" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-buttons clearfix">
-                                <a href="#"><span class="img-icon"><img src="images/share.png"
-                                            alt="share icon" /></span> <span class="txt">Share Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/heart.png"
-                                            alt="share icon" /></span> <span class="txt">190+ Likes</span></a>
-                            </div>
-
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
-
-                                <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
-                            </div>
-                        </div>
-                    </div>
+                
 
                 </div>
             </div>
 
             <div class="row portfolioFilter">
                 <ul class="indicators">
-                    <li><a href="#" data-filter=".landscape" class="active"></a>
+                    <li><a href="#" data-filter=".realizados" class="active"></a>
                     </li>
-                    <li><a href="#" data-filter=".green"></a>
+                    <li><a href="#" data-filter=".proceso"></a>
                     </li>
-                    <li><a href="#" data-filter=".building"></a>
+                    <li><a href="#" data-filter=".futuros"></a>
                     </li>
-                    <li><a href="#" data-filter=".wedding"></a>
-                    </li>
-                    <li><a href="#" data-filter=".nature"></a>
-                    </li>
+                 
+             
                 </ul>
             </div>
         </div>
 
     </div>
+
+
     <div class="container-fluid fh5co-news" id="news">
         <div class="container">
             <h2>NUESTRAS NOTICIAS</h2>
@@ -455,15 +480,11 @@ ini_set('error_reporting',0);
                     </p>
                     <h3>Nuestras redes sociales:</h3>
                     <ul class="navbar-nav float-left social-links footer-social">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
+                    <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
 
                     </ul>
                 </div>

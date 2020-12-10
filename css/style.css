@@ -74,9 +74,9 @@ body {
 }
 
 h2::before, h2::after, .fh5co-about-us .owl-carousel1 .owl-dots .active span, .read-more, .fh5co-news .owl-carousel2 .owl-dots .active span, .form-box h4::after, .form-box button {
-  background-image: -moz-linear-gradient(0deg, #20c997 0%, #28a745 100%);
-  background-image: -webkit-linear-gradient(0deg, #20c997 0%, #28a745 100%);
-  background-image: -ms-linear-gradient(0deg, #20c997 0%, #28a745 100%);
+  background-image: -moz-linear-gradient(0deg, #69484F 0%, #69484F 100%);
+  background-image: -webkit-linear-gradient(0deg, #69484F 0%, #69484F 100%);
+  background-image: -ms-linear-gradient(0deg, #69484F 0%, #69484F 100%);
 }
 
 nav.fixed-top {
@@ -278,7 +278,7 @@ nav.fixed-top {
 }
 .menu-links li a.active {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22), transparent);
-  border-top: 5px solid #1270e4;
+  border-top: 5px solid #69484F;
 }
 @media (max-width: 1199px) {
   .menu-links {
@@ -501,8 +501,8 @@ a {
   background-image: -moz-linear-gradient(to bottom, rgba(18, 112, 228, 0.071), rgba(18, 112, 228, 0.071), transparent);
   background-image: -webkit-linear-gradient(to bottom, rgba(18, 112, 228, 0.071), rgba(18, 112, 228, 0.071), transparent);
   background-image: -ms-linear-gradient(to bottom, rgba(18, 112, 228, 0.071), rgba(18, 112, 228, 0.071), transparent);
-  border-top: 5px solid #19d63f;
-  color: #12e435;
+  border-top: 5px solid #69484F;
+  color: #69484F;
 }
 
 .portfolioFilter {
@@ -637,10 +637,10 @@ a {
   height: 50px;
 }
 .bottom-buttons a .txt {
-  background: -webkit-linear-gradient(left, #1270e4, #58c0ff);
-  background: -ms-linear-gradient(left, #1270e4, #58c0ff);
-  background: -moz-linear-gradient(left, #1270e4, #58c0ff);
-  background: -o-linear-gradient(left, #1270e4, #58c0ff);
+  background: -webkit-linear-gradient(left, #69484F, #97C160);
+  background: -ms-linear-gradient(left, #69484F, #97C160);
+  background: -moz-linear-gradient(left, #69484F, #97C160);
+  background: -o-linear-gradient(left, #69484F, #97C160);
   -webkit-background-clip: text;
   -ms-background-clip: text;
   -o-background-clip: text;
@@ -672,7 +672,7 @@ a {
 }
 .indicators li a.active {
   border-width: 0.8px;
-  border: 1px solid #1270e4;
+  border: 1px solid #69484F;
   border-radius: 50%;
   height: 20px;
   width: 20px;
@@ -680,9 +680,9 @@ a {
 .indicators li a.active::after {
   position: absolute;
   content: "";
-  background-image: -moz-linear-gradient(-11deg, #1270e4 0%, #58c0ff 100%);
-  background-image: -webkit-linear-gradient(-11deg, #1270e4 0%, #58c0ff 100%);
-  background-image: -ms-linear-gradient(-11deg, #1270e4 0%, #58c0ff 100%);
+  background-image: -moz-linear-gradient(-11deg, #69484F 0%, #97C160 100%);
+  background-image: -webkit-linear-gradient(-11deg, #69484F 0%, #97C160 100%);
+  background-image: -ms-linear-gradient(-11deg, #69484F 0%, #97C160 100%);
   height: 10px;
   width: 10px;
   border-radius: 50%;
@@ -781,7 +781,7 @@ a {
 }
 .fh5co-news .owl-carousel2 .owl-prev:hover,
 .fh5co-news .owl-carousel2 .owl-next:hover {
-  color: #1270e4;
+  color: #69484F;
   background: #ffffff !important;
   box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.07);
 }

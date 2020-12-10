@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Bootstrap 4 Blog Template For Developers</title>
+    <title>Proximos</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -33,15 +33,15 @@
 
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../proyectos-theme/images/profile.png" alt="image" >			
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../proyectos-theme/images/profe.PNG" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">DESARROLLANDO COLOMBIA<br></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            
 					<li class="list-inline-item"><a  href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="list-inline-item"><a  href="#"><i class="fab fa-instagram"></i></a></li>
-					<li class="list-inline-item"><a  href="dashboard.php"><i class="fas fa-map"></i> </a></li>
-					<li class="list-inline-item"><a  href="Login/logout.php"><i class="fas fa-sign-out-alt"></i> </a></li>
+					<li class="list-inline-item"><a  href="../dashboard.php"><i class="fas fa-map"></i> </a></li>
+					<li class="list-inline-item"><a  href="../Login/logout.php"><i class="fas fa-sign-out-alt"></i> </a></li>
 
 					</ul><!--//social-list-->
 					
@@ -51,18 +51,16 @@
 	
 				<ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
-					    <a class="nav-link" href="index.php"><i class="fas fa-check-double  mr-2"></i>         Realizados <span class="sr-only">(current)</span></a>
+					    <a class="nav-link" href="index.php"><i class="fas fa-check-double  mr-2"></i>Mis proyectos <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="proyectos-en-proceso.php"><i class="fas fa-bookmark fa-fw mr-2"></i>En Proceso</a>
+					    <a class="nav-link" href="proyectos-en-proceso.php"><i class="fas fa-bookmark fa-fw mr-2"></i>Informes</a>
 					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="proximos-proyectos.php"><i class="fas fa-project-diagram  mr-2"></i>      Proximos</a>
-					</li>
+			
 				</ul>
 				
 				<div class="my-2 my-md-3">
-				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Inicio</a>
+				    <a class="btn btn-primary" href="../index.php" target="_blank">Inicio</a>
 				</div>
 			</div>
 		</nav>
