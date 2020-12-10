@@ -41,12 +41,12 @@ ini_set('error_reporting',0);
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#page-top"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#index.php"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">Centro de Datos</a></li>
+                    <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="dashboard.php">Centro de Datos</a></li>
 
-                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">About</a></li>
+                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">Conocenos</a></li>
                         <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#news">Noticias</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>

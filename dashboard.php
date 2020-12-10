@@ -18,11 +18,11 @@ ini_set('error_reporting',0);
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#page-top"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="index.php"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">Inicio</a></li>
-                        <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
+                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="index.php">Inicio</a></li>
+                        <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="index.php">Proyectos</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>
 
                     </ul>
@@ -36,7 +36,7 @@ ini_set('error_reporting',0);
 <iframe width="1170" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=dcd68f36-54f1-42a1-9aa4-d1482cf10c9e&autoAuth=true&ctid=dd505be5-ec69-47f5-92df-caa55febf5fa&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
 </div>
 
-    <footer class="container-fluid fh5co-footer">
+<footer class="container-fluid fh5co-footer">
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-lg-5">
@@ -67,17 +67,22 @@ ini_set('error_reporting',0);
                         <h4>Iniciemos un proyecto!</h4>
                         <p>¡Nos encantaría saber de usted!</p>
                         <hr />
+
+
+
+                        <form action="enviar_correo.php" method="post">
+
                         <table class="table table-light table-borderless">
                             <tr>
-                                <td><input type="text" class="form-control" placeholder="Nombre...">
+                                <td><input type="text" class="form-control" placeholder="Nombre..." name="nombre" required>
                                 </td>
 
-                                <td><input type="text" class="form-control" placeholder="Correo">
+                                <td><input type="text" class="form-control" placeholder="Correo" name="correo" required> 
                                 </td>
                             </tr>
 
                             <tr>
-                                <td colspan="2"><textarea class="form-control" placeholder="Mensaje.."></textarea>
+                                <td colspan="2"><textarea class="form-control" placeholder="Mensaje.." name="mensaje" required></textarea>
                                 </td>
                             </tr>
                             <tr>
@@ -89,6 +94,11 @@ ini_set('error_reporting',0);
                                 </td>
                             </tr>
                         </table>
+
+                        </form>
+
+
+
                     </div>
                 </div>
 
