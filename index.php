@@ -447,6 +447,11 @@ ini_set('error_reporting',0);
                         <h4>Iniciemos un proyecto!</h4>
                         <p>¡Nos encantaría saber de usted!</p>
                         <hr />
+
+
+
+                        <form action="enviar_correo.php" method="post">
+
                         <table class="table table-light table-borderless">
                             <tr>
                                 <td><input type="text" class="form-control" placeholder="Nombre..." name="nombre" required>
@@ -469,6 +474,11 @@ ini_set('error_reporting',0);
                                 </td>
                             </tr>
                         </table>
+
+                        </form>
+
+
+
                     </div>
                 </div>
 
