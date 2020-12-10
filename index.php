@@ -38,6 +38,22 @@ ini_set('error_reporting',0);
 
 <body>
 
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#page-top"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">About</a></li>
+                        <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#news">Noticias</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
         <nav class="navbar fixed-top navbar-expand-xl">
             <div class="container">
@@ -47,61 +63,11 @@ ini_set('error_reporting',0);
 
                 <div id="my-nav" class="collapse navbar-collapse">
 
-                    <div>
-                        <p class="text-left follow">Nuestras Redes:</p>
-                        <ul class="navbar-nav float-left social-links">
-
-                        <?php if( !isset($_SESSION['usuario'])) { ?>  <li class="nav-item">
-                                <a href="Login/login.php" class="tooltip33" ><i class="fas fa-user-tag"> </i><span class="tooltiptext">Iniciar Sesión</span>  </a>
-                                <?php } ?></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-                            </li>
-                             <li class="nav-item"><a class="tooltip33" href="dashboard.php"><i class="fas fa-map"></i> <span class="tooltiptext">Centro de datos</span> </a>
-                                </li>
-
-                            <?php if( $_SESSION['rango'] == 2) { ?> <li class="nav-item"><a class="tooltip33" href="proyectos-theme"><i class="fas fa-file-prescription"></i> <span class="tooltiptext">Proyectos</span> </a>
-                                <?php } ?></li>
-
-                                <?php if( isset($_SESSION['usuario'])) { ?>   <li class="nav-item"><a class="tooltip33" href="Login/logout.php"><i class="fas fa-sign-out-alt"></i> <span class="tooltiptext">Cerrar Sesión</span></a>
-                                    <?php } ?></li>
-
-                        </ul>
-                    </div>
-
-                    <ul class="navbar-nav mx-auto logo-desktop">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"><img src="images/img/logo/logo2.png" alt="Vista Pro" /></a>
-                        </li>
-                    </ul>
-
-                    <ul class="navbar-nav float-right menu-links">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contactanos</a>
-                        </li>
-                     
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">Noticias</a>
-                      </li>
-
-
-
-                    </ul>
+               
                 </div>
             </div>
         </nav>
+       
 
         <div class="carousel-inner">
             <div class="carousel-item active">
