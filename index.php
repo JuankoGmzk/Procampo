@@ -44,29 +44,22 @@ ini_set('error_reporting',0);
                 <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#page-top"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">Centro de Datos</a></li>
+
                         <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">About</a></li>
                         <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#news">Noticias</a></li>
                         <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#">Iniciar Sesión</a></li>
 
                     </ul>
                 </div>
             </div>
         </nav>
+       
 
     <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
-        <nav class="navbar fixed-top navbar-expand-xl">
-            <div class="container">
-                <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
-                <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
-                    <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
-
-                <div id="my-nav" class="collapse navbar-collapse">
-
-               
-                </div>
-            </div>
-        </nav>
+     
        
 
         <div class="carousel-inner">
@@ -75,9 +68,9 @@ ini_set('error_reporting',0);
                 <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/POSTS_181221-09.jpg">
 
                 <div class="carousel-caption d-md-block">
-                    <p class="frst-hrd">campo3</p>
-                    <h5>campo3.</h5>
-                    <p>campo3</p>
+                   <!-- <p class="frst-hrd">campo3</p>
+                <h5>Centro de datos.</h5>--> 
+                   
 
                 </div>
 
@@ -86,20 +79,18 @@ ini_set('error_reporting',0);
             <div class="carousel-item">
                 <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/agricultura2.jpg">
 
-                <div class="carousel-caption d-md-block">
-                    <p class="frst-hrd">campo1</p>
-                    <h5>campo1.</h5>
-                    <p>campo1</p>
+                <div class="carousel-caption d-md-block"> 
+                    <!-- <p class="frst-hrd">campo1</p>-->
+                    
 
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/landscapes-2432900_1920.jpg">
 
-                <div class="carousel-caption d-md-block">
-                    <p class="frst-hrd">campo2</p>
-                    <h5>campo2</h5>
-                    <p>campo2</p>
+                <div class="carousel-caption d-md-block"> 
+                    <!-- <p class="frst-hrd">campo2</p>-->
+                 
 
                 </div>
             </div>

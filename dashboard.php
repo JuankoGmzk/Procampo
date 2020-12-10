@@ -16,28 +16,19 @@ ini_set('error_reporting',0);
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/css.css">
 
-<div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
-<nav class="navbar fixed-top navbar-expand-xl">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
-                <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
-                    <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
+                <a style="color:black;" class="navbar-brand js-scroll-trigger" href="#page-top"><i>PROCAMPO</i></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li  class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#about-us">Inicio</a></li>
+                        <li class="nav-item"><a  style="color:black;" class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link js-scroll-trigger" href="#contact">Contactanos</a></li>
 
-                <div id="my-nav" class="collapse navbar-collapse">
-
-                 
-
-                    <ul class="navbar-nav mx-auto logo-desktop">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"><img src="images/img/logo/logo2.png" alt="Vista Pro" /></a>
-                        </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
-</div>
-
 
 <br><br><br><br><br><br>
 
