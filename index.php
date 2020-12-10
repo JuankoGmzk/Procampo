@@ -55,7 +55,7 @@ ini_set('error_reporting',0);
                     </ul>
                 </div>
             </div>
-        </nav>
+</nav>
        
 
     <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
@@ -65,7 +65,7 @@ ini_set('error_reporting',0);
         <div class="carousel-inner">
             <div class="carousel-item active">
 
-                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/POSTS_181221-09.jpg">
+                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/1578147847.jpg">
 
                 <div class="carousel-caption d-md-block">
                    <!-- <p class="frst-hrd">campo3</p>
@@ -77,7 +77,7 @@ ini_set('error_reporting',0);
 
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/agricultura2.jpg">
+                <img class="d-block w-100 home-bg" alt="home-bg" src="images/procampo_imagenes/cocoa-452911_1920.jpg">
 
                 <div class="carousel-caption d-md-block"> 
                     <!-- <p class="frst-hrd">campo1</p>-->
@@ -131,14 +131,14 @@ ini_set('error_reporting',0);
 
                     <div class="owl-carousel owl-carousel1 owl-theme">
                         <div>
-                            <img src="images/procampo_imagenes/reiseuhu-2GrRlrLReQc-unsplash.jpg" alt="" class="img-fluid" />
+                            <img src="images/about-chica-2.jpg" alt="" class="img-fluid" />
                             
                         </div>
                         <div>
-                            <img src="images/procampo_imagenes/Campesinofinagro-1.jpg" alt="" class="img-fluid" />
+                            <img src="images/about-chica-1.jpg" alt="" class="img-fluid" />
                         </div>
                         <div>
-                            <img src="images/procampo_imagenes/campesino-cosechando.jpg" alt="" class="img-fluid" />
+                            <img src="images/about-chica-3.jpg" alt="" class="img-fluid" />
 
                            
                         </div>
@@ -276,79 +276,78 @@ ini_set('error_reporting',0);
                            
 
                             <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
 
                     </div>
                     <div class="gallary realizados">
-                        <img src="images/procampo_imagenes/campesinos_0.jpg" class="half-height" alt="">
+                        <img src="images/procampo_imagenes/coffee-1154324_1920.jpg" class="half-height" alt="">
                         <div class="card-img-overlay">
                         
 
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                        <div class="top-buttons bottom-buttons clearfix">
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallary proceso">
 
-                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
+                        <img src="images/procampo_imagenes/fauna-2713066_1920.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
                            
 
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                        <div class="top-buttons bottom-buttons clearfix">
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
                     </div>
                     <div class="gallary  proceso">
-                        <img src="images/procampo_imagenes/campesinos_0.jpg" class="half-height" alt="">
+                        <img src="images/procampo_imagenes/miguel-bruna-7lPkBHgO1IY-unsplash.jpg" class="half-height" alt="">
                         <div class="card-img-overlay">
                            
-
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                        <div class="top-buttons bottom-buttons clearfix">
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
                     </div>
                     <div class="gallary futuros">
-                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
+                        <img src="images/procampo_imagenes/the-2387531_1920.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
                
 
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                        <div class="top-buttons bottom-buttons clearfix">
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallary futuros">
-                        <img src="images/procampo_imagenes/campesinos_0.jpg"  class="half-height" alt="">
+                        <img src="images/procampo_imagenes/campesino-bogota-rural.jpg"  class="half-height" alt="">
                         <div class="card-img-overlay">
        
 
-                            <div class="top-buttons bottom-buttons clearfix">
-                                <a href="#"><span class="txt">Contact Now</span></a>
+                        <div class="top-buttons bottom-buttons clearfix">
+                                <a href="#"><span class="txt">Contactarse</span></a>
 
                                 <a href="#"><span class="img-icon"><img src="images/eye.png" alt="share icon" /></span>
-                                    <span class="txt">Full View</span></a>
+                                    <span class="txt">Leer más</span></a>
                             </div>
                         </div>
                     </div>
@@ -382,34 +381,31 @@ ini_set('error_reporting',0);
             <div class="row">
                 <div class="owl-carousel owl-carousel2 owl-theme">
                     <div>
-                        <div class="card text-center"> <img class="card-img-top" src="images/news1.png" alt="">
+                        <div class="card text-center"> <img class="card-img-top" src="images/procampo_imagenes/small-monkeys-1522267_1920.jpg" alt="">
                             <div class="card-body text-left pr-0 pl-0">
-                                <h5>Noticia 1 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                <h5>Así salvan a los monos titís cabeciblanco en Luruaco, Atlántico </h5>
+                                <p class="card-text">Los titís cabeciblancos son pequeños primates, aproximadamente del tamaño de una ardilla, 
+                                    tienen este nombre por el pelo sobre sus cabezas, que se levanta al sentirse en peligro, para parecer más grandes. Además tienen pecho y 
+                                    vientre blanco, mientras que su espalda y cola está cubierta de un largo pelaje negro y marrón. </p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <div class="card text-center"> <img class="card-img-top" src="images/news2.png" alt="">
+                        <div class="card text-center"> <img class="card-img-top" src="images/procampo_imagenes/k-mitch-hodge-4buEZvBzuL0-unsplash.jpg" alt="">
                             <div class="card-body text-left pr-0 pl-0">
-                                <h5>Noticia 2 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                <h5>Fundación Tepa </h5>
+                                <p class="card-text">Buscamos proteger la vida de perros y gatos en estado de maltrato y abandono. Les brindamos alimentos, medicamentos y albergue,
+                                     con el fin de mejorar su calidad de vida y conseguirles un hogar.</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <div class="card text-center"> <img class="card-img-top" src="images/news3.png" alt="">
+                        <div class="card text-center"> <img class="card-img-top" src="images/procampo_imagenes/rifky-nur-setyadi-Z6V4qkaNDBw-unsplash.jpg" alt="">
                             <div class="card-body text-left pr-0 pl-0">
-                                <h5>Noticia 3 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                <h5>¿Qué son los derechos de los campesinos? </h5>
+                                <p class="card-text">Son las garantías que debe brindar el Estado colombiano a los campesinos y campesinas, como sujetos de derechos para que puedan vivir y desarrollarse en condiciones dignas y adecuadas. </p>
                             </div>
                         </div>
                     </div>
@@ -453,15 +449,15 @@ ini_set('error_reporting',0);
                         <hr />
                         <table class="table table-light table-borderless">
                             <tr>
-                                <td><input type="text" class="form-control" placeholder="Nombre...">
+                                <td><input type="text" class="form-control" placeholder="Nombre..." name="nombre" required>
                                 </td>
 
-                                <td><input type="text" class="form-control" placeholder="Correo">
+                                <td><input type="text" class="form-control" placeholder="Correo" name="correo" required> 
                                 </td>
                             </tr>
 
                             <tr>
-                                <td colspan="2"><textarea class="form-control" placeholder="Mensaje.."></textarea>
+                                <td colspan="2"><textarea class="form-control" placeholder="Mensaje.." name="mensaje" required></textarea>
                                 </td>
                             </tr>
                             <tr>

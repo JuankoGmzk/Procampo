@@ -81,6 +81,8 @@ h2::before, h2::after, .fh5co-about-us .owl-carousel1 .owl-dots .active span, .r
 
 nav.fixed-top {
   padding-top: 0;
+  background: rgb(255, 255, 255);
+
 }
 
 .header .fixed-top {
